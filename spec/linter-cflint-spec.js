@@ -27,7 +27,7 @@ describe('The bootlint provider for Linter', () => {
     expect(messages[0].location.position).toEqual([[1, 4], [1, 15]]);
 
     expect(messages[1].severity).toBe('info');
-    expect(messages[1].excerpt).toBe('<cffunction name=\"myFunction\"> should have @output=\'false\'');
+    expect(messages[1].excerpt).toBe('<cffunction name="myFunction"> should have @output=\'false\'');
     expect(messages[1].location.file).toBe(cfCatchPath);
     expect(messages[1].location.position).toEqual([[1, 5], [1, 15]]);
 
