@@ -1,0 +1,13 @@
+{
+    "excludes": [
+        {"code": "AVOID_USING_CFMODULE_TAG"},
+        {"code": "AVOID_USING_CFABORT_TAG"},
+        {"code" : "AVOID_USING_ABORT"},
+        {"code" : "ARG_HINT_MISSING"},
+        {"code" : "GLOBAL_VAR"}
+    ],
+    "parameters": {
+        "VariableNameChecker.minLength": "1",
+        "VariableNameChecker.maxLength": "35"
+    }
+}
